@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEKI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <form id="nameForm" onsubmit="return displayReversedName()">
+            <h1>¿CÓMO SE LLAMA TU MUEBLE DE IKEA?</h1>
+            <div class="losDos">
+                <input type="text" id="nameInput" placeholder="Ingresa tu nombre">
+                <button type="submit">Enviar</button>
+            </div>
+            <p>©AEKI Copyright 2024 - Bob Smallfield</p>
+        </form>
+        <div id="result" class="hidden">
+            <h1 id="reversedName"></h1>
+            <img id="randomImage" src="" alt="Imagen aleatoria">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e1e1ff;
+    opacity: 1;
+    background-image: linear-gradient(30deg, #4c948f 12%, transparent 12.5%, transparent 87%, #4c948f 87.5%, #4c948f), linear-gradient(150deg, #4c948f 12%, transparent 12.5%, transparent 87%, #4c948f 87.5%, #4c948f), linear-gradient(30deg, #4c948f 12%, transparent 12.5%, transparent 87%, #4c948f 87.5%, #4c948f), linear-gradient(150deg, #4c948f 12%, transparent 12.5%, transparent 87%, #4c948f 87.5%, #4c948f), linear-gradient(60deg, #4c948f77 25%, transparent 25.5%, transparent 75%, #4c948f77 75%, #4c948f77), linear-gradient(60deg, #4c948f77 25%, transparent 25.5%, transparent 75%, #4c948f77 75%, #4c948f77);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 255, 119);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    padding-top: 40px;
+}
+
+.losDos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: top;
+}
+
+#nameInput {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.result {
+    height: 100%;
+    width: 100%;
+}
+
+#reversedName {
+    font-size: 3em;
+    margin: 20px 0;
+    color: white;
+}
+
+#randomImage {
+    /* max-width: 50%; */
+    height: 80%;
+    border-radius: 10%;
+}
